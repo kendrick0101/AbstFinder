@@ -1,0 +1,120 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-color: #f4fcf6fc;
+}
+
+
+.flex{
+     display: flex;
+}
+ 
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+/* Formulario */
+
+.form{
+
+    position: absolute;
+    top: 30%;
+    left: -0.3%;
+    padding: 200px 186.4px;
+    margin: 10px 10px;
+    background-color: #07274b;
+    border-radius: 25px;
+
+}
+
+#logo{
+
+    height: 100px;
+    width: auto;
+    position: absolute;
+    top: 2%;
+    left: 29.2%;
+}
+
+#email-txt{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    top: 8%;
+    left: 40.5%;
+}
+
+#email{
+    font-size: 15px;
+    width: 90%;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+
+#senha-txt{
+    color: white;
+    font-size: 25px;
+    font-weight: 300;
+    position: absolute;
+    top: 40%;
+    left: 39%;
+}
+
+#senha{
+
+    font-size: 15px;
+    width: 90%;
+    padding: 10px 20px 10px;
+    border-radius: 20px;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+
+}
+
+#btn{
+    position: absolute;
+    top: 74%;
+    left: 25%;
+    background-color: #1d99c8;
+    padding: 10px 70px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+#login{
+
+    color: #07274b;
+    font-size: 35px;
+    font-weight: 300;
+    position: absolute;
+    top: 19%;
+    left: 38%;
+
+}
+
+#voltar{
+
+    
+    position: absolute;
+    top: 1%;
+    left: 2%;
+    text-decoration: none;
+    color: #07274b;
+
+
+}
