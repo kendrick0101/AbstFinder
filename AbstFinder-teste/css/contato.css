@@ -1,0 +1,195 @@
+/* GERAL */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+     height: 100vh;
+}
+ 
+.flex{
+     display: flex;
+}
+
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+/* CABEÇALHO */
+
+
+header{
+    padding: 40px 3%;
+    background-color: #f4f6fc;
+
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #5c5c5c;
+    text-decoration: none;
+    display: inline-block;
+    transition: .3s;
+}
+
+header a:hover{
+    color: #1d99c8;
+    transform: scale(1.05);
+    transform: translateX(0%); 
+}
+
+header nav ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+header nav ul li{
+    position: relative;
+    left: 9.6%;
+    display: inline-block;
+    padding: 0 60px;
+    
+
+}
+
+header .como-usar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header .como-usar button {
+    position: relative;
+    left: 265px;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #1d99c8;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+header .como-usar button:hover {
+    box-shadow: 0px 0px 8px #31c8ff;
+    transition: .3s;
+}
+
+header #logo-abst{
+
+    width: 80px;
+    height: auto;
+    position: absolute;
+    left: 45px;
+    top: 25px;
+    pointer-events: none;
+
+}
+
+#contato{
+    color: #1d99c8;
+}
+
+/* txt */
+
+
+#txt{
+    text-indent: 40px;
+    font-size: 20px;
+    font-weight: 200;
+    position: absolute;
+    left: 21%;
+    top: 18%;
+}
+
+/* Formulário */
+
+.form-cont{
+    color: white;
+    background-color: #07274b;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 500px;
+    width: 100%;
+    padding: 24px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.form-cont label{
+    font-weight: 200;
+    display: inline-block;
+    margin-bottom: 4px;
+    padding-top: 10px;
+}
+
+.form-cont input{
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+    width: 100%;
+    border: 2px solid #dfdfdf;
+}
+
+.form button{
+    background-color: #224364;
+    color: white;
+    width: 100%;
+    border-radius: 14px;
+    padding: 10px;
+    border:0;
+    font-size: 20px;
+    font-weight: 200;
+    cursor: pointer;
+    margin-top: 14px;
+}
+
+section h1{
+    position: absolute;
+    top: 33%;
+    left: 14%;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.div{
+    border-left: 2px solid #07274b;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    margin-left: -4px;
+    top: 36.5%;
+}
+
+.redessocias{
+    font-size: 30px;
+    color: white;
+    background-color: #07274b;
+    border-radius: 14px;
+    margin: 14px;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px;
+    position: absolute;
+    top: 40%;
+    left: 59.3%;
+}
+
+section h{
+    position: absolute;
+    top: 33%;
+    left: 65.2%;
+    font-weight: 400;
+    font-size: 30px;
+}
