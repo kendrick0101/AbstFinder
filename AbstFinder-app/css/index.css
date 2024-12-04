@@ -1,0 +1,66 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-color: aliceblue;
+
+    /* background-image: url(../img/inicial.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh; */
+}
+
+
+.flex{
+     display: flex;
+}
+ 
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+/* logo */
+
+.logo{
+    position: absolute;
+    top: 70px;
+    left: 45px;
+
+}
+#logo{
+    width: 300px ;
+}
+
+/* Login */
+
+#login{
+    text-decoration: none;
+    padding: 20px 80px;
+    background-color: #224364;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    border-radius: 120px;
+    position: absolute;
+    top: 81.5%;
+    left: 23%;
+    
+}
+
+#convidado{
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    position: absolute;
+    top: 94%;
+    left: 26.5%;
+}
