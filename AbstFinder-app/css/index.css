@@ -1,0 +1,62 @@
+/* Geral */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+
+    background-color: #f4fcf6fc;
+}
+
+
+.flex{
+     display: flex;
+}
+ 
+.interface{
+     max-width: 1280px;
+     margin: 0 auto;
+}
+
+/* Cabeçalho */
+
+#logo{
+
+    height: 70px;
+    width: auto;
+    margin-top: 1.5%;
+
+}
+
+.fundo{
+
+    position: absolute;
+    top: 1.8%;
+    left: 30%;
+    background-color: #1d99c8;
+    padding: 22px 80px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.localiza{
+
+    padding: 0%;
+    width: 12px;
+    height: auto;
+    position: absolute;
+    left: 10%;
+    top: 30%;
+
+}
+#localizacao{
+
+    font-size: 8px;
+
+}
